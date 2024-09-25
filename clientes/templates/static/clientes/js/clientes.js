@@ -26,7 +26,7 @@ function exibir_form(tipo){
 }
 
 function dados_cliente(){
-    const csrf_token = document.querySelector('[name = csrfmiddlewaretoken]')
+    const csrf_token = document.querySelector('[name = csrfmiddlewaretoken]').value
     const cliente = document.getElementById('cliente-select')
     let id_cliente = cliente.value
 
@@ -42,8 +42,22 @@ function dados_cliente(){
     }).then(function (result){
         return result.json();
     }).then(function (data){
-        console.log('teste')
+        document.getElementById('form-att-cliente').style.display = 'block'
+
+        nome = document.getElementById('nome')
+        nome.value = data['nome']
+
+        sobrenome = document.getElementById('sobrenome')
+        sobrenome.value = data['sobrenome']
+
+        email = document.getElementById('email')
+        email.value = data['email']
+
+        cpf = document.getElementById('cpf')
+        cpf.value = data['cpf']
+
     })
+
 
 }
 

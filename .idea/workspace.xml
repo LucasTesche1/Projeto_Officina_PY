@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad8c4613-baab-45db-81d4-d923e17ee324" name="Changes" comment="1/4 from the second tutorial">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projetoOfficina.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projetoOfficina.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/templates/clientes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/templates/clientes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/templates/static/clientes/css/clientes.css" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/templates/static/clientes/css/clientes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/templates/static/clientes/js/clientes.js" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/templates/static/clientes/js/clientes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +40,12 @@
     &quot;assignee&quot;: &quot;LucasTesche1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LucasTesche1/Projeto_Officina_PY.git",
-    "accountId": "1e3b1d42-35e7-44ae-bbb5-31775dedc676"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LucasTesche1/Projeto_Officina_PY.git&quot;,
+    &quot;accountId&quot;: &quot;1e3b1d42-35e7-44ae-bbb5-31775dedc676&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -50,23 +58,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/e.lucas.tesche/Downloads/Lucas_UCB/PYTHON/projetoOfficina&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2609582&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/e.lucas.tesche/Downloads/Lucas_UCB/PYTHON/projetoOfficina/.venv/Lib/site-packages/django",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
+    "settings.editor.splitter.proportion": "0.2609582",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +94,18 @@
       <updated>1724170918472</updated>
       <workItem from="1725463927102" duration="4990000" />
       <workItem from="1725469298281" duration="61000" />
-      <workItem from="1725469475699" duration="2223000" />
+      <workItem from="1725469475699" duration="2887000" />
+      <workItem from="1726068874634" duration="50000" />
+      <workItem from="1726586210099" duration="75000" />
+      <workItem from="1726589933015" duration="28000" />
+      <workItem from="1727108563136" duration="3661000" />
+      <workItem from="1727195903703" duration="8000" />
+      <workItem from="1727201677213" duration="33000" />
+      <workItem from="1727201747177" duration="5000" />
+      <workItem from="1727202009593" duration="51000" />
+      <workItem from="1727202358410" duration="39000" />
+      <workItem from="1727280367490" duration="1193000" />
+      <workItem from="1727281893597" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -143,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725470969102</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1/4 from the second tutorial">
+      <option name="closed" value="true" />
+      <created>1725475440494</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725475440494</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
