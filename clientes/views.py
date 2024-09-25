@@ -1,9 +1,12 @@
+from dataclasses import fields
+
 from django.shortcuts import render
 from .models import Cliente,Carro
 from django.http import HttpResponse, JsonResponse
 import re
 from django.core import serializers
 import json
+from django.views.decorators.csrf import csrf_exempt
 
 def clientes (request):
     if request.method == "GET":
@@ -21,10 +24,10 @@ def clientes (request):
 
         cliente = Cliente.objects.filter(cpf = cpf)
         if cliente.exists():
-            #TODO-ADICIONAR MENSAGENS
+
             return render(request, 'clientes.html', {'nome':nome, 'sobrenome':sobrenome, 'email':email, 'carros':zip(carros,placas,anos)})
         if not re.fullmatch(re.compile(r'([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@[A-Za-z0-9-]+(\.[A-Z|a-z]{2,})+'), email):
-            #TODO-ADICIONAR MENSAGENS
+
             return render(request, 'clientes.html', {'nome':nome, 'sobrenome':sobrenome,'cpf':cpf, 'zip': zip(carros,placas,anos)})
 
         cliente = Cliente(
@@ -51,7 +54,32 @@ def clientes (request):
 def att_cliente(request):
     id_cliente = request.POST.get('id_cliente')
     cliente = Cliente.objects.filter(id=id_cliente)
+    carros = Carro.objects.filter(cliente=id_cliente[0])
+
     cliente_json = json.loads(serializers.serialize('json', cliente))[0]['fields']
+    carros_json = json.loads(serializers.serialize('json', carros))
+    carros_json = [{'fields': carro['fields'], 'id': carro['pk']}for carro in carros_json]
 
-    return JsonResponse(cliente_json)
+    data = {'cliente' : cliente_json, 'carros': carros_json}
 
+    return JsonResponse(data)
+
+
+@csrf_exempt
+def update_carro(request,id):
+    nome_carro = request.POST.get('carro')
+    placa = request.POST.get('placa')
+    ano = request.POST.get('ano')
+
+    carro = Carro.objects.get(id=id)
+    list_carros = Carro.objects.filter(placa=placa).exclude(id=id)
+
+    if list_carros.exists():
+        return HttpResponse("Placa já existente")
+
+    carro.carro = nome_carro
+    carro.placa = placa
+    carro.ano = ano
+    carro.save()
+
+    return HttpResponse(nome_carro)

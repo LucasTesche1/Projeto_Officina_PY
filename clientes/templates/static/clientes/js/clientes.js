@@ -42,20 +42,39 @@ function dados_cliente(){
     }).then(function (result){
         return result.json();
     }).then(function (data){
-        document.getElementById('form-att-cliente').style.display = 'block'
+        aux = document.getElementById('form-att-cliente')
+        aux.style.display = 'block'
 
-        nome = document.getElementById('nome')
-        nome.value = data['nome']
+        nome = document.getElementById('nome').value = data['cliente']['nome']
+        sobrenome = document.getElementById('sobrenome').value = data['cliente']['sobrenome']
+        email = document.getElementById('email').value = data['cliente']['email']
+        cpf = document.getElementById('cpf').value = data['cliente']['cpf']
 
-        sobrenome = document.getElementById('sobrenome')
-        sobrenome.value = data['sobrenome']
+        div_carros = document.getElementById('carros')
+        div_carros.innerHTML = ""
 
-        email = document.getElementById('email')
-        email.value = data['email']
+        for(i=0; i<data['carros'].length; i++){
+            div_carros.innerHTML += "\<form action='/clientes/update_carro/" + data['carros'][i]['id'] +"' method='POST'>\
+                <div class='row'>\
+                        <div class='col-md'>\
+                            <input class='form-control' name='carro' type='text' value='" + data['carros'][i]['fields']['carro'] + "'>\
+                        </div>\
+                        <div class='col-md'>\
+                            <input class='form-control' name='placa' type='text' value='" + data['carros'][i]['fields']['placa'] + "'>\
+                        </div>\
+                        <div class='col-md'>\
+                            <input class='form-control' type='text' name='ano' value='" + data['carros'][i]['fields']['ano'] + "' >\
+                        </div>\
+                        <div class='col-md'>\
+                            <input class='btn btn-lg btn-success' type='submit' value='Salvar'>\
+                        </div>\
+                    </form>\
+                    <div class='col-md'>\
+                        <a href='/clientes/excluir_carro/"+ data['carros'][i]['id'] +"' class='btn btn-lg btn-danger'>EXCLUIR</a>\
+                    </div>\
+                </div><br>"
 
-        cpf = document.getElementById('cpf')
-        cpf.value = data['cpf']
-
+        }
     })
 
 

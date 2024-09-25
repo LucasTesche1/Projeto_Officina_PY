@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8c4613-baab-45db-81d4-d923e17ee324" name="Changes" comment="1/4 from the second tutorial">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projetoOfficina.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projetoOfficina.iml" afterDir="false" />
+    <list default="true" id="ad8c4613-baab-45db-81d4-d923e17ee324" name="Changes" comment="2/4 from the second tutorial&#10;made a use for the fetch api&#10;returning client info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clientes/templates/clientes.html" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/templates/clientes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientes/templates/static/clientes/css/clientes.css" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/templates/static/clientes/css/clientes.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clientes/templates/static/clientes/js/clientes.js" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/templates/static/clientes/js/clientes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clientes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clientes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/views.py" afterDir="false" />
@@ -40,12 +37,12 @@
     &quot;assignee&quot;: &quot;LucasTesche1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/LucasTesche1/Projeto_Officina_PY.git&quot;,
-    &quot;accountId&quot;: &quot;1e3b1d42-35e7-44ae-bbb5-31775dedc676&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LucasTesche1/Projeto_Officina_PY.git",
+    "accountId": "1de767a4-fcdd-4b7b-96a6-0ea9215380ca"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -105,7 +102,7 @@
       <workItem from="1727202009593" duration="51000" />
       <workItem from="1727202358410" duration="39000" />
       <workItem from="1727280367490" duration="1193000" />
-      <workItem from="1727281893597" duration="644000" />
+      <workItem from="1727281893597" duration="6399000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -171,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725475440494</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2/4 from the second tutorial&#10;made a use for the fetch api&#10;returning client info">
+      <option name="closed" value="true" />
+      <created>1727282591811</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727282591811</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +188,7 @@
     <MESSAGE value="everthing fixed" />
     <MESSAGE value="done the first part of the tutorial" />
     <MESSAGE value="1/4 from the second tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/4 from the second tutorial" />
+    <MESSAGE value="2/4 from the second tutorial&#10;made a use for the fetch api&#10;returning client info" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/4 from the second tutorial&#10;made a use for the fetch api&#10;returning client info" />
   </component>
 </project>
