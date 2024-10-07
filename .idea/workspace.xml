@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8c4613-baab-45db-81d4-d923e17ee324" name="Changes" comment="inferno de dante">
-      <change afterPath="$PROJECT_DIR$/servicos/choices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicos/templates/novo_servico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicos/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oficina/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/oficina/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oficina/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/oficina/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="ad8c4613-baab-45db-81d4-d923e17ee324" name="Changes" comment="3 left" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +97,7 @@
       <workItem from="1727280367490" duration="1193000" />
       <workItem from="1727281893597" duration="6483000" />
       <workItem from="1727799420853" duration="8647000" />
-      <workItem from="1728315445787" duration="4170000" />
+      <workItem from="1728315445787" duration="4992000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -197,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727807602791</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="3 left">
+      <option name="closed" value="true" />
+      <created>1728324192072</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728324192073</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +210,7 @@
     <MESSAGE value="2/4 from the second tutorial&#10;made a use for the fetch api&#10;returning client info" />
     <MESSAGE value="update made on cars part" />
     <MESSAGE value="inferno de dante" />
-    <option name="LAST_COMMIT_MESSAGE" value="inferno de dante" />
+    <MESSAGE value="3 left" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 left" />
   </component>
 </project>
