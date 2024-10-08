@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8c4613-baab-45db-81d4-d923e17ee324" name="Changes" comment="Service modal done">
-      <change afterPath="$PROJECT_DIR$/clientes/templates/static/servicos/css/listar_servico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicos/templates/listar_servico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicos/templates/servico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/static/servicos/css/listar_servico.css" afterDir="false" />
+    <list default="true" id="ad8c4613-baab-45db-81d4-d923e17ee324" name="Changes" comment="App service almost done&#10;Made 3 more urls&#10;1 class left to end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/templates/servico.html" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/templates/servico.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/views.py" afterDir="false" />
     </list>
@@ -110,7 +106,7 @@
       <workItem from="1727281893597" duration="6483000" />
       <workItem from="1727799420853" duration="8647000" />
       <workItem from="1728315445787" duration="7369000" />
-      <workItem from="1728397129981" duration="7586000" />
+      <workItem from="1728397129981" duration="11099000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -224,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728400518961</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="App service almost done&#10;Made 3 more urls&#10;1 class left to end">
+      <option name="closed" value="true" />
+      <created>1728406054698</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728406054699</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +245,7 @@
     <MESSAGE value="inferno de dante" />
     <MESSAGE value="3 left" />
     <MESSAGE value="Service modal done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service modal done" />
+    <MESSAGE value="App service almost done&#10;Made 3 more urls&#10;1 class left to end" />
+    <option name="LAST_COMMIT_MESSAGE" value="App service almost done&#10;Made 3 more urls&#10;1 class left to end" />
   </component>
 </project>
