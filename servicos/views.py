@@ -1,5 +1,8 @@
+from contextlib import nullcontext
+
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
+from .models import Servico
 from .forms import FormServico
 
 # Create your views here.
@@ -19,3 +22,13 @@ def novo_servico(request):
             return render(request, 'novo_servico.html', {'form': form})
 
 
+def listar_servico(request):
+    if request.method == 'GET':
+        servicos = Servico.objects.all()
+        return render(request, 'listar_servico.html', {'servicos': servicos})
+
+
+def servico(request, identificador):
+    servico = get_object_or_404(Servico, identificador=identificador)
+
+    return render (request, 'servico.html', {'servico': servico})
