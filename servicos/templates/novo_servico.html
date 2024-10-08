@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>NOVO SERVICO</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'head' %}
+    <link rel="stylesheet" href="{% static 'clientes/css/clientes.css' %}">
+{% endblock %}
+
+
+{% block 'dashboard' %}
+    <br>
+    <br>
+    <div class="container">
+        <form action="{% url 'novo_servico' %}" method = 'POST'>{% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" class="btn btn-sucess" value="Salvar">
+        </form>
+
+    </div>
+
+{% endblock %}

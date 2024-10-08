@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8c4613-baab-45db-81d4-d923e17ee324" name="Changes" comment="3 left" />
+    <list default="true" id="ad8c4613-baab-45db-81d4-d923e17ee324" name="Changes" comment="3 left">
+      <change afterPath="$PROJECT_DIR$/servicos/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/templates/novo_servico.html" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/templates/novo_servico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/servicos/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +103,8 @@
       <workItem from="1727280367490" duration="1193000" />
       <workItem from="1727281893597" duration="6483000" />
       <workItem from="1727799420853" duration="8647000" />
-      <workItem from="1728315445787" duration="5056000" />
+      <workItem from="1728315445787" duration="7369000" />
+      <workItem from="1728397129981" duration="3327000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
